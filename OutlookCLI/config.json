@@ -1,0 +1,75 @@
+{
+  "Events": {
+    "SingleEventNoRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+	  "OtherCalendar": "Ralph Smith"
+    },
+    "SingleEventWithRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+      "Recipients": "ralph@gmail.com",
+	  "OtherCalendar": "Ralph Smith"
+    },
+    "RecurrenceNoRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+      "RecurrenceType": "Weekly",
+      "EndDate": "1/1/2018",
+	  "OtherCalendar": "Ralph Smith"
+    },
+    "RecurrenceWithRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+      "RecurrenceType": "Weekly",
+      "EndDate": "1/1/2018",
+      "Recipients": "ralph@gmail.com",
+	  "OtherCalendar": "Ralph Smith"
+    },
+	"UpdateSingleEventNoRecipients": {
+		"Subject": "Test from JSON",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T15:30:00-5:00",
+		"UpdatedDuration": "55",
+		"OtherCalendar": "Ralph Smith"
+	},
+	"UpdateSingleEventWithRecipients": {
+		"Subject": "Test from JSON",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T15:30:00-5:00",
+		"UpdatedDuration": "55",
+		"Recipients": "ralph@gmail.com",
+		"OtherCalendar": "Ralph Smith"
+	},
+	"UpdateRecurrenceNoRecipients": {
+		"Subject": "Test from JSON",
+		"EventDate": "2017/12/11T15:30:00-5:00",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T16:30:00-5:00",
+		"UpdatedDuration": "55",
+		"OtherCalendar": "Ralph Smith"
+	},
+	"UpdateRecurrenceWithRecipients": {
+		"Subject": "Test from JSON",
+		"EventDate": "2017/12/11T15:30:00-5:00",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T16:30:00-5:00",
+		"UpdatedDuration": "55",
+		"Recipients": "ralph@gmail.com",
+		"OtherCalendar": "Ralph Smith"
+    },
+	"RemoveSingleInstance": {
+		"Subject": "Test from JSON",
+		"EventDate": "2017/12/11T15:30:00-5:00",
+		"OtherCalendar": "Ralph Smith"
+	},
+	"RemoveAllInstances": {
+		"Subject": "Test from JSON",
+		"OtherCalendar": "Ralph Smith"
+	}
+	}
+}
